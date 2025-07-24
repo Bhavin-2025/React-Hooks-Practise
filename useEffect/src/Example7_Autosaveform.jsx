@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function AutoSaveForm() {
   const [bio, setBio] = useState("");
 
-  // 🟡 Load saved bio from localStorage on first mount
+  
   useEffect(() => {
     const savedBio = localStorage.getItem("userBio");
     if (savedBio) {
@@ -11,7 +11,7 @@ function AutoSaveForm() {
     }
   }, []);
 
-  // 🟢 Save bio to localStorage every time it changes
+  
   useEffect(() => {
     localStorage.setItem("userBio", bio);
   }, [bio]);
