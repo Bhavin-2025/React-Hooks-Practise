@@ -8,6 +8,10 @@ import TodoApp from './Example3_Todo'
 import ShoppingCart from './example4_ShoppingCart'
 import QuizApp from './Example4_Quiz'
 import Theme from './Example5_Theme'
+import ModalExample from './Example7_ModalVisiblity'
+import LoginForm from './Example8_FormValidation'
+import MultiStepForm from './Example9_multistep'
+import InventoryManagement from './InventoryManagement'
 
 function App() {
 
@@ -18,7 +22,11 @@ function App() {
      {/* <TodoApp/> */}
      {/* <ShoppingCart/> */}
      {/* <QuizApp/> */}
-     <Theme/>
+     {/* <Theme/> */}
+     {/* <ModalExample/> */}
+     {/* <LoginForm/> */}
+     {/* <MultiStepForm/> */}
+     <InventoryManagement/>
      
     </>
   )
