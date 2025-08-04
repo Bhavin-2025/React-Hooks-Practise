@@ -9,6 +9,9 @@ import UniqueWords from './Example4_uniqueWord'
 import GradeCalculator from './Example5_Grade'
 import EmojiMoodTranslator from './Example6_EmojiTranslator'
 import PasswordStrength from './Example7_Password'
+import ShoppingCart from './Example8_ShoppingCart'
+import AttendanceTracker from './Example9_studentAttendance'
+import AgeFilter from './Example10_AgeFilter'
 function App() {
   
 
@@ -20,7 +23,10 @@ function App() {
     {/* <UniqueWords/> */}
     {/* <GradeCalculator/> */}
     {/* <EmojiMoodTranslator/> */}
-    <PasswordStrength/>
+    {/* <PasswordStrength/> */}
+    {/* <ShoppingCart/> */}
+    {/* <AttendanceTracker/> */}
+    <AgeFilter/>
     </>
   )
 }
